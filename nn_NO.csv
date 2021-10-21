@@ -92,10 +92,19 @@ Configure,Konfigurer
 "You must buy at least %1 of these per purchase.","Du må kjøpe minst %1 av disse per innkjøp."
 "Specify the product's options.","Angi alternativ for produktet."
 "Alert me when this item is available.","Varsle meg når dette produkt er tilgjengelig."
+"This customer couldn't be found. Verify the customer and try again.","Denne kunden ble ikke funnet. Kontroller kunden og prøv igjen."
 "Shopping cart management is disabled for this customer.","Administrasjon av handlekurv er deaktivert for denne kunden."
+"This store couldn't be found. Verify the store and try again.","Denne butikken ble ikke funnet. Kontroller butikken, og prøv på nytt."
 Customers,Kunder
 "Shopping Cart",Handlekurv
+"An error occurred. For details, see the error log.","En feil har oppstått. For detaljer, se feil-loggen."
 "You do not have access to this.","Du har ikke tilgang til dette."
+"Orders can only be completed in an active store. Verify the store and try again.","Bestillinger kan kun fullføres i en aktiv butikk. Bekreft butikken å prøv igjen."
+"The ordered item needs to be loaded. Load the item and try again.","Den bestilte varen må lastes. Last inn elementet, og prøv på nytt."
+"The quote item ID needs to be received. Set the ID and try again.","ID'en for tilbudselementet må mottas. Angi ID'en og prøv igjen."
+"The quote item needs to be loaded. Load the item and try again.","Den bestilte varen må lastes. Last inn varen, og prøv på nytt."
+"The wish list item ID needs to be received. Set the ID and try again.","Vare-ID'en på ønskelisten må mottas. Angi ID'en og prøv igjen."
+"The wish list item needs to be loaded. Load the item and try again.","Varen på ønskelisten må lastes. Last inn elementet, og prøv på nytt."
 "An error has occurred. See error log for details.","Det har oppstått en feil. Se i feilloggen for mer informasjon."
 "You cannot configure a product.","Du kan ikke konfigurere et produkt."
 "You removed the items.","Du fjernet elementene."
@@ -126,6 +135,7 @@ Customers,Kunder
 "Yes, for Specified Customer Groups","Ja, for angitte kundegrupper"
 "Yes, for Everyone","Ja, for alle"
 No,Nei
+"The file is corrupt and can't be used.","Filen er skadet og kan ikke brukes."
 "Please upload the file in .csv format.","Vennligst opplast filen i .csv format."
 "%1 item(s) need your attention.","%1 element(er) krever din oppmerksomhet."
 "Apply Coupon Code","Bruk kupongkode"
@@ -365,7 +375,12 @@ Environment,Miljø
 options,innstillinger
 "Select all","Velg alle"
 "Deselect all","Opphev merking"
+"We couldn't find any records.","Vi kunne ikke finne noen poster."
+Show,Vis
+"per page","per side"
 "%s of %s selected","%s av %s valgt"
+"Search by keyword","Søk etter nøkkelord"
+"This is a required field.","Dette er et obligatorisk felt."
 "B2B Features",B2B-funksjoner
 "Invalid Form Key. Please refresh the page.","Ugyldig skjemanøkkel. Vennligst oppdater siden."
 "You entered an invalid Secret Key. Please refresh the page.","Du oppga en ugyldig hemmelig nøkkel. Oppdater siden."
@@ -607,7 +622,6 @@ Thumbnail,Miniatyrbilde
 "Additional Settings",Tilleggsinnstillinger
 "records found","oppføringer funnet"
 selected,valgt
-"per page","per side"
 "Previous page","Forrige side"
 "of %1","av %1"
 "Next page","Neste side"
@@ -1527,7 +1541,6 @@ Prev,Forrige
 "Items %1-%2 of %3","Elementer %1-%2 av %3"
 "%1 Item","%1 Produkt"
 "%1 Items","%1 Produkter"
-Show,Vis
 "Sort By","Sorter etter"
 "Set Ascending Direction","Angi stigende retning"
 "Set Descending Direction","Angi synkende retning"
@@ -1770,9 +1783,8 @@ End,Slutt
 "No Backorders","Ingen restordrer"
 "Allow Qty Below 0","Tillate antall under 0"
 "Allow Qty Below 0 and Notify Customer","Tillate antall under 0 og gi kunde beskjed"
-"The fewest you may purchase is %1.","Det minste du kan kjøpe er %1."
 "Please correct the quantity for some products.","Korriger antallet for noen produkter."
-"The most you may purchase is %1.","Det meste du kan kjøpe er %1."
+"The fewest you may purchase is %1.","Det minste du kan kjøpe er %1."
 "Stock Status",Lagerstatus
 "Product availability","Produkt tilgjengelighet"
 "Stock Options","Lager alternativer"
@@ -1870,7 +1882,6 @@ Path,Sti
 "Create Permanent Redirect for URLs if URL Key Changed","Opprette permanent omadressering for URL'er hvis URL-nøkkel forandres"
 "Please choose a condition to add.","Velg en betingelse å legge til."
 "List of Products","Liste over produkter"
-"Invalid method: %1","Ugyldig metode: %1"
 State/Province,Fylke/kommune
 "My Cart (1 item)","Min handlevogn (1 vare)"
 "My Cart (%1 items)","Min handlevogn (%1 varer)"
@@ -1917,6 +1928,7 @@ Checkout,Kasse
 "Sorry, guest checkout is not available.","Beklager, betaling som gjest er ikke tilgjengelig."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du må bekrefte kontoen. Vennligst sjekk din e-post for bekreftelseslenken, eller <a href=""%1"">klikk her</a> for en ny lenke."
 "Load customer quote error","Last kunde sitat feil"
+"Invalid method: %1","Ugyldig metode: %1"
 Error!,Feil!
 "DB exception","DB unntak"
 "Print receipt","Skriv ut kvittering"
@@ -2038,6 +2050,7 @@ Sales,Salg
 "Something went wrong while saving this condition.","Noe gikk galt under lagringen av denne betingelsen."
 Automatically,Automatisk
 Manually,Manuelt
+"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","Ordren ble ikke registrert. Godta vilkårene og prøv på nytt."
 "Terms & Conditions","Vilkår og betingelser"
 "Enable Terms and Conditions","Aktiver Vilkår og betingelser"
 "Preview Quote Lifetime (minutes)","Forhåndsvisning sitat levetid (minutter)"
@@ -2130,14 +2143,23 @@ Gender:,Kjønn:
 Duplicated,Duplisert
 "Company Structure",Firmastruktur
 "New Company","Nytt selskap"
+"Thank you! We're reviewing your request and will contact you soon","Takk skal du ha! Vi gjennomgår forespørselen og vil kontakte deg snart"
+"An error occurred on the server. Your changes have not been saved.","Det oppstod en feil på serveren. Endringene har ikke blitt lagret."
 "Create New Company","Opprett et nytt selskap"
 "A total of %1 record(s) were updated.","Totalt %1 post(er) ble oppdatert."
 "Something went wrong. Please try again later.","Noe gikk galt. Prøv på nytt senere."
+"Invalid value of ""%value"" provided for the email field.","Ugyldig verdi for ""%value"" gitt for e-postfeltet."
+"Invalid value ""%value"" given for the website ID field.","Ugyldig verdi ""%value"" gitt for nettsteds ID-feltet."
+"You have deleted company %companyName.","Du har slettet firma %companyName."
 "The company no longer exists.","Firmaet finnes ikke lengre."
 "The requested company is not found","Den forespurte firmaet ble ikke funnet"
 "can not be saved","kan ikke bli lagret"
 "A total of %1 record(s) were deleted.","Totalt %1 post(er) ble slettet."
 "Could not save company","Kunne ikke lagre firmaet"
+"You have saved company %companyName.","Du har lagret firma %companyName."
+"You have created company %companyName.","Du har opprettet firma %companyName."
+"You have accepted the invitation to the company","Du har godtatt invitasjonen til selskapet"
+"Error occurred when trying to accept the invitation. Please try again later.","En feil oppstod ved forsøk på å godkjenne invitasjonen. Prøv igjen senere."
 "Cannot create the customer.","Kan ikke opprette kunde."
 "The customer was successfully created.","Kunden ble opprettet."
 "You cannot delete yourself.","Du kan ikke slette deg selv."
@@ -2300,7 +2322,6 @@ Purchased,Kjøpt
 "Order # %1","Ordre # %1"
 "Available Credit ","Tilgjengelig Kreditt "
 "Cancel the Order","Fjern bestillingen"
-"This is a required field.","Dette er et obligatorisk felt."
 "Reason For Change","Årsaken til forandring"
 Date,Dato
 Operation,Operasjon
@@ -2452,11 +2473,11 @@ Select,Velg
 "Create Product Configurations","Opprett produktkonfigurasjoner"
 "Buy %1 for %2 each and","Kjøp %1 for %2 pr. stk. og"
 save,spar
+"Disable Product","Deaktiver produkt"
+"Enable Product","Aktiver produkt"
 "New Product Review","Ny produktomtale"
 "Here are the products you're about to create.","Her er produktene du er i ferd med å opprette."
 "You created these products for this configuration.","Du opprettet disse produktene for denne konfigurasjonen."
-"Disable Product","Deaktiver produkt"
-"Enable Product","Aktiver produkt"
 "Please choose image(s).","Velg bilde(r)."
 "Please select attribute(s).","Vennligst velg attributt(er)."
 "Generate Products","Opprett produkter"
@@ -3420,6 +3441,8 @@ Error:,Feil:
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","Alle tider er i minutter. Bruk ""0"" hvis du vil hoppe over automatisk klaring."
 "Failed Messages Lifetime","Levetid for mislykkede meldinger"
 "New Messages Lifetime","Levetid for nye meldinger"
+Quotes,Tilbud
+"Created Date","Opprettet dato"
 "Last Updated","Sist oppdatert"
 "Sales Rep",Salgsrapport
 "Catalog Total Price (Excl. Tax)","Katalog totalpris (ekskl. mva)"
@@ -4384,7 +4407,6 @@ Track:,Sporing:
 "See our Shipping Policy","Se retningslinjene for frakt"
 "Shipping Settings Section","Innstillinger for frakt"
 "Shipping Policy Parameters Section","Seksjon for fraktvilkår parametre"
-"Shipping Methods Section","Leveringsmåte del"
 "Shipping Settings",Frakt-innstillinger
 Origin,Opprinnelse
 "Shipping Policy Parameters","Parametre for fraktvilkår"
@@ -4450,11 +4472,11 @@ Calendar,Kalender
 "Store with the same code","Butikk med den samme koden"
 "Website with the same code","Nettsider med den samme koden"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Nettstedkoden kan bare inneholde bokstaver (a-z), tall (0-9) eller understreking (_), det første tegnet må være en bokstav."
-"Name is required","Navn er påkrevd"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Butikk-koden kan bare inneholde bokstaver (a-z), tall (0-9) eller understreking (_), det første tegnet må være en bokstav."
 "Store is inactive","Butikken er inaktiv"
 "Invalid store parameter.","Ugyldig lagerparameter."
 "Default store is inactive","Standardbutikken er inaktiv"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Butikk-koden kan bare inneholde bokstaver (a-z), tall (0-9) eller understreking (_), det første tegnet må være en bokstav."
+"Name is required","Navn er påkrevd"
 "no such entity exception","ingen slike enhet unntak"
 "Your Language:","Ditt språk:"
 "Your Language","Ditt språk"
@@ -4638,6 +4660,7 @@ Themes,Temaer
 "Insert File","Sett inn fil"
 welcome,velkommen
 "Design Configuration","Design Konfigurasjon"
+"We cannot find a theme with id ""%1"".","Vi kan ikke finne temaet med id ""%1""."
 "You deleted the theme.","Du slettet temaet."
 "We cannot delete the theme.","Vi kan ikke fjerne dette temaet."
 "File not found: ""%1"".","Filen ikke funnet: ""%1""."
@@ -4645,7 +4668,6 @@ welcome,velkommen
 "We cannot find the theme.","Vi kan ikke finne temaet."
 "This theme is not editable.","Dette temaet er ikke redigerbart."
 "You saved the theme.","Du lagret temaet."
-"We cannot find a theme with id ""%1"".","Vi kan ikke finne temaet med id ""%1""."
 "Invalid type","Ugyldig type"
 "localized exception","lokaliserte unntak"
 "Test Label",Testetikett
@@ -4762,8 +4784,6 @@ Keyword,Nøkkelord
 "Please enter a valid date.","Vennligst angi en gyldig dato."
 "Please enter a valid zip code.","Vennligst skriv inn en gyldig zip-kode."
 "Please select State/Province.","Vennligst angi Stat/Province."
-"Please enter a value less than or equal to {0}.","Skriv inn en verdi som er mindre enn eller lik {0}."
-"Please enter a value greater than or equal to {0}.","Skriv inn en verdi større enn eller lik {0}."
 "Log JS Errors to Session Storage","Logg JS-feil til øktlagring"
 "If enabled, can be used by functional tests for extended reporting","Hvis aktivert, kan dette brukes av funksjonelle tester for utvidet rapportering"
 "Use this key to retrieve collected js errors","Bruk denne nøkkelen for å hente samlede js-feil"
@@ -5166,6 +5186,8 @@ Translate,Oversett
 "Please enter valid SKU key.","Vennligst angi en gyldig SKU nøkkel."
 "This is required field","Dette er et obligatorisk felt"
 "Please enter a value between {0} and {1}.","Angi en verdi mellom {0} og {1}."
+"Please enter a value less than or equal to {0}.","Skriv inn en verdi som er mindre enn eller lik {0}."
+"Please enter a value greater than or equal to {0}.","Skriv inn en verdi større enn eller lik {0}."
 "Please enter a date between %min and %max.","Angi en dato mellom % min og % maks."
 "Please enter a valid full date.","Angi en gyldig dato."
 "Please enter a valid month (1-12).","Angi en gyldig måned (1-12)."
