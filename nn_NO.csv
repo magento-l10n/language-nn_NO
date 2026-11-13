@@ -2299,10 +2299,10 @@ Duplicated,Duplisert
 "Pending Approval","Venter på godkjenning"
 Rejected,Avvist
 Blocked,Blokkert
+"Invalid value of ""%value"" provided for the %fieldName field.","Ugyldig verdi for ""% verdi"" gitt for feltet %fieldName."
 "Invalid login or password.","Ugyldig pålogging eller passord."
 "This account is locked.","Denne kontoen er låst."
 "Your account is not yet approved. If you have questions, please contact the seller.","Din konto er ikke enda godkjent. Hvis du har spørsmål, vennligst kontakt selgeren."
-"Invalid value of ""%value"" provided for the %fieldName field.","Ugyldig verdi for ""% verdi"" gitt for feltet %fieldName."
 "Cannot delete role with id %1","Kunne ikke slette rolle med id %1"
 "The selected user is inactive. To continue, select another user or activate the current user.","Den valgte brukeren er inaktiv. For å fortsette, velg en annen bruker eller aktiver gjeldende bruker."
 "Could not save company: %1","Kan ikke lagre firmaet: %1"
@@ -2325,6 +2325,7 @@ Duplicate,Dupliser
 "Company Name",Firmanavn
 "Customer Type:",Kundetype:
 Company:,Firmanavn:
+"User Role",Brukerrolle
 "Company Information",Firmainformasjon
 "Company Legal Name","Firmaets juridiske navn"
 "Company Email","Firmaets e-post-adresse"
@@ -2338,7 +2339,6 @@ Company:,Firmanavn:
 "Add User","Legg til bruker"
 "Edit Selected","Rediger valgte"
 "Delete Selected","Slett valgte"
-"User Role",Brukerrolle
 "Team Title","Lag Tittel"
 "You don't have a company account yet.","Du har ikke en firmakonto enda."
 "VAT/TAX ID: ","MVA / SKATT ID: "
@@ -2346,8 +2346,12 @@ Company:,Firmanavn:
 Contacts,Kontakter
 "Role Information",Rolleinformasjon
 "Save Role","Lagre rolle"
+"This action cannot be undone. Are you sure you want to delete this user?","Denne handlingen kan ikke angres. Er du sikker på at du vil slette denne brukeren?"
 "Add New User","Legg til ny bruker"
 "Create an Account","Opprette en Konto"
+"Change Customer Group?","Bytt kundegruppe?"
+"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Denne kunden er en bruker av et annet selskap. Hvis du fortsetter, vil kunden bli fjernet fra det gjeldende firmaet og knyttet til det valgte firmaet."
+"Change Company?","Forandre Bedrift?"
 "This action will replace your Company Admin.","Denne handlingen vil erstatte din firmaadministrator."
 "* Your latest changes on the company profile have not been saved yet.","*Din seneste forandring på firmaprofilen har ikke blitt lagret enda."
 "Dear %name,","Kjære %name,"
@@ -2364,8 +2368,6 @@ Proceed,Fortsett
 "This user cannot be deleted because he/she is a company admin.","Denne brukeren kan ikke slettes fordi han er en firma admin."
 "Edit User","Rediger bruker"
 "Cannot Delete User","Kan ikke slette brukeren"
-"Delete this user?","Slette denne brukeren?"
-"This action cannot be undone. Are you sure you want to delete this user?","Denne handlingen kan ikke angres. Er du sikker på at du vil slette denne brukeren?"
 "Edit Team","Redigere Team"
 "Cannot Delete This Team","Kan ikke slette dette teamet"
 "Delete this team?","Slette dette teamet?"
@@ -2374,7 +2376,6 @@ Proceed,Fortsett
 "This action cannot be undone. Are you sure you want to delete this role?","Denne handlingen kan ikke angres. Er du sikker på at du vil slette denne rollen?"
 "Cannot Delete Role","Kan ikke slette rollen"
 "Cannot Delete Customer","Kan ikke slette kunden"
-"Set Inactive","Sett inaktiv"
 "Company Configuration",Firmakonfigurasjon
 "Email Options - Company Registration","Epost alternativer - Firma registrering"
 Comma-separated,Kommadelt
@@ -2399,6 +2400,7 @@ Comma-separated,Kommadelt
 Comment,Kommentar
 "Company Admin","Selskapets Admin"
 Gender,Kjønn
+"Set Inactive","Sett inaktiv"
 "Customer Type",Kundenavn
 "Are you sure you want to temporarily disable this company account? If you confirm, login for all company members will be blocked.","Er du sikker på at du vil midlertidig deaktivere denne firmakontoen? Hvis du bekrefter, blokkeres innlogging for alle medlemmer i selskapet."
 "Are you sure you want to set this company to active? If you confirm, the company members will be able to operate within their company account.>","Er du sikker på at du vil angi dette selskapet til aktivt? Hvis du bekrefter, vil medlemmene i selskapet kunne operere innenfor deres firmakonto. >"
@@ -2409,10 +2411,7 @@ Gender,Kjønn
 Prefix,Prefiks
 "Middle Name/Initial",Mellomnavn/Initial
 Suffix,Suffiks
-"Change Customer Group?","Bytt kundegruppe?"
 "Customer Active","Kunde aktiv"
-"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Denne kunden er en bruker av et annet selskap. Hvis du fortsetter, vil kunden bli fjernet fra det gjeldende firmaet og knyttet til det valgte firmaet."
-"Change Company?","Forandre Bedrift?"
 "Associate to Company","Tilknytt firma"
 "My Orders","Mine ordrer"
 "Create New Customer","Opprett ny kunde"
